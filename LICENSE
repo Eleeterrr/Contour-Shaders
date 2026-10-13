@@ -1,0 +1,71 @@
+CONTOUR SOURCE CODE LICENSE
+
+Copyright (c) 2026 Eleeter. All rights reserved.
+
+==============================================================================
+NOTICE OF MULTI-COMPONENT LICENSING
+==============================================================================
+
+This repository contains distinct components subject to separate licensing terms:
+
+1. CONTOUR SHADERS:
+   The source code, shaders, algorithms, and documentation contained within 
+   the "contour shaders" directory constitute original works authored 
+   exclusively by Eleeter and are governed by the terms of this License below.
+
+2. COMPLEMENTARY SHADERS BASE:
+   The preexisting codebase located within the "complementary shaders" 
+   directory is copyright (c) EminGT and is governed separately and exclusively 
+   by the Complementary License Agreement (see "complementary shaders/License.txt"). 
+   Nothing herein shall be construed as modifying, overriding, or claiming 
+   ownership over any portion of the Complementary Shaders base.
+
+==============================================================================
+TERMS AND CONDITIONS (CONTOUR SHADERS)
+==============================================================================
+
+1. GRANT OF LICENSE
+Subject to the terms and restrictions set forth herein, the Author hereby 
+grants to you a personal, non-exclusive, non-transferable, revocable license 
+to download, inspect, and execute the Software for gameplay and content 
+creation purposes (including capturing screenshots, recording videos, and 
+broadcasting live streams).
+
+2. RESTRICTIONS
+Except as expressly authorized in Section 3, you shall not, directly or 
+indirectly:
+(a) Modify, adapt, alter, translate, or create derivative works based upon the 
+    Software or any portion thereof;
+(b) Distribute, publish, sublicense, rent, lease, loan, mirror, or otherwise 
+    disseminate the Software, in whole or in part, in source or binary form;
+(c) Bundle or integrate the Software into any third-party shader pack, modpack, 
+    or distribution without authorization;
+(d) Commercialize, monetize, or exploit the Software for financial gain.
+
+3. WRITTEN PERMISSION FOR MODIFICATION OR DISTRIBUTION
+Any modification, distribution, redistribution, or inclusion of the Software 
+in other projects is strictly contingent upon obtaining prior express written 
+consent from the Author. 
+
+Where written authorization is granted by the Author, any permitted distribution 
+must:
+(a) Retain this complete License notice and copyright statement without alteration;
+(b) Provide prominent attribution identifying Eleeter as the author of the Software;
+(c) Strictly adhere to any additional stipulations specified in the written consent.
+
+4. RESERVATION OF RIGHTS
+All rights, title, and interest in and to the Software not expressly granted to 
+you under this License are reserved by the Author.
+
+5. LICENSING INQUIRIES
+Requests for redistribution or modification authorization must be submitted 
+directly to the Author.
+
+6. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT 
+SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR 
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, 
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
