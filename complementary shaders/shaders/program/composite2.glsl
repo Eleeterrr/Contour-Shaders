@@ -22,7 +22,7 @@ vec2 view = vec2(viewWidth, viewHeight);
 void main() {
     vec4 sceneColor = texelFetch(colortex0, texelCoord, 0);
 
-    ApplyContourOutline(sceneColor);
+    DrawOutline(sceneColor);
 
     /* DRAWBUFFERS:0 */
     gl_FragData[0] = sceneColor;
