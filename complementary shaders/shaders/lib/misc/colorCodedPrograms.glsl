@@ -37,9 +37,9 @@ void ColorCodeProgram(inout vec4 color, int mat) {
 
     color.rgb *= 0.75;
 
-    if (heldItemId == 40000 || heldItemId2 == 40000)
-    {
-        if (mat == 0)
+    // Hold spider eye in one hand to switch to ID=0 check mode
+    if (heldItemId == 40000 || heldItemId2 == 40000) {
+        if (mat == 0) // Magenta-Black Horizontal Stripes
         color.rgb = mix(vec3(0.0, 0.0, 0.0), vec3(3.0, 0.0, 3.0), mod(gl_FragCoord.y, 20.0) / 20.0);
         else
         color.rgb = vec3(0.25);

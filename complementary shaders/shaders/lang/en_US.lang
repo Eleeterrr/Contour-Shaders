@@ -1189,3 +1189,14 @@ option.OUTLINE_RAINBOW_HUE.comment=The color used when Animated Rainbow is OFF.\
 
 option.OUTLINE_RAINBOW_SPEED=Rainbow Animation Speed
 option.OUTLINE_RAINBOW_SPEED.comment=How fast the rainbow color cycles when Animated Rainbow is ON.\nHigher value = faster color change.
+
+option.OUTLINE_GLOW=Glowing Outline
+option.OUTLINE_GLOW.comment=Makes the outline glow with bloom effect.\nON = glowing outline, OFF = normal dark outline.
+
+option.OUTLINE_GLOW_INTENSITY=Glow Intensity
+option.OUTLINE_GLOW_INTENSITY.comment=Brightness of the glowing outline.\nHigher = brighter glow and stronger bloom.
+
+option.OUTLINE_GLOW_SMOOTHNESS=Glow Smoothness
+option.OUTLINE_GLOW_SMOOTHNESS.comment=Softness of the glow edge.\nLower = sharp outline, Higher = soft smooth glow.
+
+screen.CONTOUR_RAINBOW_SETTINGS=Rainbow Settings

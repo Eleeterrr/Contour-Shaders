@@ -15,6 +15,7 @@
 
 #define OUTLINE_REF_FOCAL 1.4281
 
+#include "/contour/outlineGlow.glsl"
 
 vec3 HsvToRgb(float h, float s, float v)
 {
@@ -156,15 +157,15 @@ void DrawOutline(inout vec4 sceneColor)
         vec3 outlineColor = weightedColor / totalWeight;
 
         #if OUTLINE_RAINBOW == 1
-            #if OUTLINE_RAINBOW_CYCLE == 1
-                float hue = fract(frameTimeCounter * OUTLINE_RAINBOW_SPEED * 0.1);
-            #else
-                float hue = OUTLINE_RAINBOW_HUE;
-            #endif
-            sceneColor.rgb = HsvToRgb(hue, 1.0, 1.0);
+        #if OUTLINE_RAINBOW_CYCLE == 1
+        float hue = fract(frameTimeCounter * OUTLINE_RAINBOW_SPEED * 0.1);
         #else
-            sceneColor.rgb = outlineColor * OUTLINE_DARKNESS;
+        float hue = OUTLINE_RAINBOW_HUE;
         #endif
+        outlineColor = HsvToRgb(hue, 1.0, 1.0);
+        #endif
+
+        ApplyOutlineGlow(sceneColor.rgb, outlineColor, totalWeight);
         sceneColor.a = 1.0;
     }
 }
